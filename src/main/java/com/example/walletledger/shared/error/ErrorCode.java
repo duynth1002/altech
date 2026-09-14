@@ -1,0 +1,12 @@
+package com.example.walletledger.shared.error;
+
+public enum ErrorCode {
+    VALIDATION_ERROR,
+    MALFORMED_REQUEST,
+    WALLET_NOT_FOUND,
+    WALLET_ALREADY_EXISTS,
+    INSUFFICIENT_FUNDS,
+    IDEMPOTENCY_KEY_REUSED,
+    BALANCE_LIMIT_EXCEEDED,
+    INTERNAL_ERROR
+}
