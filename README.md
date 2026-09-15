@@ -205,5 +205,5 @@ A trigger rejects `UPDATE` or `DELETE` on `wallet_transactions`. Flyway owns the
 
 ## AI tooling notes
 
-Implemented with Cursor (Grok 4.6). Specification files in `wallet-ledger-cursor-spec/` were read first. The generated code was reviewed against the source requirements, acceptance criteria, and concurrency algorithm, then verified by running `.\mvnw.cmd test` against Testcontainers PostgreSQL. Optional product features were left out on purpose.
+Implemented with Cursor (Grok 4.6). The generated code was reviewed against the source requirements, acceptance criteria, and concurrency algorithm, then verified by running `.\mvnw.cmd test` against Testcontainers PostgreSQL. Optional product features were left out on purpose.
 
